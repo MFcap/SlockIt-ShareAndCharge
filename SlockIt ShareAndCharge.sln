@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlockIt ShareAndCharge", "SlockIt ShareAndCharge\SlockIt ShareAndCharge.csproj", "{D1ADF7EA-1ED6-4F73-9BCE-5FEDEE42128A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1ADF7EA-1ED6-4F73-9BCE-5FEDEE42128A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1ADF7EA-1ED6-4F73-9BCE-5FEDEE42128A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1ADF7EA-1ED6-4F73-9BCE-5FEDEE42128A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1ADF7EA-1ED6-4F73-9BCE-5FEDEE42128A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F899D46-F850-450C-89ED-FC22EC6CDF43}
+	EndGlobalSection
+EndGlobal

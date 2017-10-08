@@ -1,0 +1,14 @@
+﻿[
+  { "type": "function",    "name": "mobilityTokenLib",       "constant": true,   "inputs":[],"outputs":[{"name":"","type":"address"}],"payable":false},
+  { "type": "function",    "name": "feeManagementLib",       "constant": true,   "inputs":[],"outputs":[{"name":"","type":"address"}],"payable":false},
+  { "type": "function",    "name": "priceProviderLibs",      "constant": true,   "inputs":[{"name":"","type":"uint256"}],"outputs":[{"name":"","type":"address"}],"payable":false},
+  { "type": "function",    "name": "genLibs",                "constant": true,   "inputs":[{"name":"","type":"uint256"}],"outputs":[{"name":"","type":"address"}],"payable":false},
+  { "type": "function",    "name": "chargingPolesLib",       "constant": true,   "inputs":[],"outputs":[{"name":"","type":"address"}],"payable":false},
+  { "type": "function",    "name": "dateTimeLib",            "constant": true,   "inputs":[],"outputs":[{"name":"","type":"address"}],"payable":false},
+  { "type": "function",    "name": "admin",                  "constant": true,   "inputs":[],"outputs":[{"name":"","type":"address"}],"payable":false},
+
+  { "type": "event",       "name": "LogUpdateAdmin",         "anonymous":false,"inputs":[{"indexed":false,"name":"newAdmin","type":"address"}]},
+  { "type": "event",       "name": "LogUpdateLib",           "anonymous":false,"inputs":[{"indexed":false,"name":"name","type":"string"},{"indexed":false,"name":"newAddress","type":"address"}]},
+  { "type": "event",       "name": "LogUpdateGenLib",        "anonymous":false,"inputs":[{"indexed":false,"name":"index","type":"uint256"},{"indexed":false,"name":"","type":"address"}]},
+  { "type": "event",       "name": "LogEmergenyHalt",        "anonymous":false,"inputs":[{"indexed":false,"name":"time","type":"uint256"}]}
+]

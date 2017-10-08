@@ -1,0 +1,10 @@
+﻿[
+  { "type": "function",    "name": "totalSupply",                "constant": true,   "inputs":[],"outputs":[{"name":"","type":"uint256"}],"payable":false},
+  { "type": "function",    "name": "getWhitelist",               "constant": true,   "inputs":[{"name":"_user","type":"address"}],"outputs":[{"name":"","type":"bool"}],"payable":false},
+  { "type": "function",    "name": "db",                         "constant": true,   "inputs":[],"outputs":[{"name":"","type":"address"}],"payable":false},
+  { "type": "function",    "name": "libManager",                 "constant": true,   "inputs":[],"outputs":[{"name":"","type":"address"}],"payable":false},
+  
+  { "type": "event",       "name": "LogTokenUpdate",             "anonymous":false,"inputs":[{"indexed":false,"name":"target","type":"address"},{"indexed":false,"name":"amount","type":"int256"},{"indexed":false,"name":"newBalance","type":"uint256"},{"indexed":false,"name":"totalSupply","type":"uint256"}]},
+  { "type": "event",       "name": "LogKeyUpdate",               "anonymous":false,"inputs":[{"indexed":false,"name":"name","type":"string"},{"indexed":false,"name":"newKey","type":"address"}]},
+  { "type": "event",       "name": "LogWhitelistUpdate",         "anonymous":false,"inputs":[{"indexed":false,"name":"newAddress","type":"address"},{"indexed":false,"name":"allowance","type":"bool"}]},
+]
